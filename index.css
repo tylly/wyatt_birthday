@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+body{
+    background-color: #152238;
+    font-family: 'Roboto', sans-serif;
+    color: #FFBF00;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-top: 2em;
+    font-weight: bold;
+}
+
+.message_modal_container{
+    display: flex;
+    justify-content: center;
+}
+
+.message_modal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #36454F;
+    max-width: 80%;
+    border-radius: 80px;
+    padding: 70px;
+    text-align: center;
+}
+
+.snowboard{
+    max-width: 150px;
+}
+
+@media only screen and (max-width: 600px){
+.imgs{
+    display: flex;
+    flex-direction: column;
+}
+.snowboard{
+    margin-left: auto;
+    margin-right: auto;
+}
+}
